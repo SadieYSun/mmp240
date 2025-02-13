@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darumadrop+One&family=Shafarik&display=swap');
+h2{
+    background-color:aquamarine;
+    width: 325px;
+    padding-left: 40px;
+}
+h1{
+    width:300px;
+    background-color:aquamarine;
+    padding: 20px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 40px;
+}
+p{
+    background-color:beige;
+    width: 1250px;
+    padding-left: 10px;
+}
+li{  
+    color: white;
+    background-color:burlywood;
+    width: 1000px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+body{
+    border: 10px;
+}
