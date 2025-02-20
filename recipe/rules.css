@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darumadrop+One&family=Shafarik&display=swap');
+body{
+    width:1000;
+    background-color:beige;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+    border-style: dashed;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 1000px;
+}
 h2{
     background-color:aquamarine;
     width: 325px;
@@ -14,19 +27,15 @@ h1{
     padding-left: 40px;
 }
 p{
-    background-color:beige;
-    width: 1250px;
+    width: 1000px;
     padding-left: 10px;
 }
 li{  
     color: white;
     background-color:burlywood;
-    width: 1000px;
+    width: 600px;
     padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left: 40px;
-}
-body{
-    border: 10px;
 }
