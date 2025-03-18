@@ -6,9 +6,25 @@ div#page{
 body{
     background-color:black;
 }
+main{
+    padding-left: 100px;
+}
+main p{
+    float:left;
+    background-color:ghostwhite;
+    margin-right:10px;
+    width: 45%;
+    
+}
 a{
     color:coral;
     
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    padding:0.5em;
 }
 div#wrapper{
     width:1200px;
@@ -16,6 +32,10 @@ div#wrapper{
     margin-right:auto;
 }
 div#bannerText{
+    padding-left: 75px;
+
+}
+div#discription{
     padding-left: 75px;
 
 }
