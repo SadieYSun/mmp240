@@ -9,12 +9,30 @@ body{
 main{
     padding-left: 100px;
 }
+footer{
+    background-color: ghostwhite;
+    float:none;
+}
 main p{
     float:left;
     background-color:ghostwhite;
     margin-right:10px;
     width: 45%;
     
+}
+.episodes{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:ghostwhite;
+    margin-left:50px;
+
+}
+.epCard{
+    width:300px;
+    margin-left:50px;
+    margin-bottom:25px;
+    flex:0 0;
+
 }
 a{
     color:coral;
@@ -41,7 +59,7 @@ div#discription{
 }
 header{
     background:
-    linear-gradient(90deg, #000 46.94%, rgba(102, 102, 102, 0.00) 101.94%),
+    linear-gradient(90deg, #000 50%, rgba(102, 102, 102, 0.00) 101.94%),
     url("images/sailormoonheader.jpg") no-repeat right;
     padding-top: 50px;
     padding-bottom: 50px;
