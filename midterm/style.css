@@ -13,7 +13,7 @@ body{
     background-color:black;
 }
 main{
-    padding-left: 120px;
+    padding-left: 50px;
     padding-bottom: 325px;
     padding-top: 50px;
     display: contain;
@@ -83,15 +83,20 @@ header{
     padding-left: 75px;
 }
 @media screen and (max-width:500px){
+    nav{
+        width:225px;
+    }
     nav li{
+        float:none;
       display:block;
-      padding:0.5em;
+      padding:1em;
     }
     .episodes{
         display:block;
     }
     main p{
         float:none;
+        padding-bottom: 25px;
     }
     main{
         width:300px;
