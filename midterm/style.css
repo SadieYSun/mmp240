@@ -14,12 +14,17 @@ body{
 }
 main{
     padding-left: 100px;
+    padding-bottom: 325px;
+    padding-top: 50px;
     display: contain;
+    background-color: ghostwhite;
 }
 footer{
     background-color: ghostwhite;
     float:none;
     display: inline;
+    background-color:ghostwhite;
+    padding-right:1064.5px;
 }
 main p{
     float:left;
@@ -33,18 +38,23 @@ main p{
     display:flex;
     flex-wrap:wrap;
     background-color:ghostwhite;
-    margin-left:50px;
 }
 .epCard{
-    width:300px;
+    width:350px;
     margin-left:50px;
     margin-bottom:25px;
     flex:0 0;
     display: inline;
 }
 a{
-    color:coral;
+    color:ghostwhite;
     
+}
+nav{
+    background-color:coral;
+    padding-top: .25em;
+    padding-bottom: .25em;
+
 }
 nav li{
     display: inline;
@@ -57,10 +67,6 @@ div#wrapper{
     margin-left:auto;
     margin-right:auto;
 }
-div#bannerText{
-    padding-left: 75px;
-
-}
 div#discription{
     padding-left: 75px;
 
@@ -71,11 +77,12 @@ header{
     url("images/sailormoonheader.jpg") no-repeat right;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 75px;
 }
 @media screen and (max-width:750px){
     nav li{
       display:block;
-      padding:0.2em;
+      padding:0.5em;
     }
     .episodes{
         display:block;
