@@ -13,7 +13,7 @@ body{
     background-color:black;
 }
 main{
-    padding-left: 100px;
+    padding-left: 120px;
     padding-bottom: 325px;
     padding-top: 50px;
     display: contain;
@@ -45,6 +45,9 @@ main p{
     margin-bottom:25px;
     flex:0 0;
     display: inline;
+}
+.epCard p{
+    width:auto
 }
 a{
     color:ghostwhite;
@@ -79,16 +82,13 @@ header{
     padding-bottom: 50px;
     padding-left: 75px;
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:500px){
     nav li{
       display:block;
       padding:0.5em;
     }
     .episodes{
         display:block;
-        background-color:ghostwhite;
-        margin-left:50px;
-        width:350px;
     }
     main p{
         float:none;
