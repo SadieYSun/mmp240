@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul{ 
+            padding: 0;
+        }
+            nav li a{
+        display:block;
+        background-color:antiquewhite;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        padding-left: 1em;
+    }
+    .dropdown ul a{
+        background-color:bisque;
+    }
+
+    li.dropdown ul{
+        display:none;
+    }
+    li.dropdown:hover ul{
+        display:block;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="dropdown"><a href="">Fruit</a>
+                <ul>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="##">Strawbery</a></li>
+                    <li><a href="####">Orange</a></li>
+                </ul>
+            </a></li>
+            <li class="dropdown">
+                <a href="">Vechtables</a>
+                <ul>
+                    <li><a href="###">Broccoli</a></li>
+                    <li><a href="####">Cucumber</a></li>
+                    <li><a href="#####">carrot</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
