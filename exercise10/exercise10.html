@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -10,13 +11,15 @@
         }
             nav li a{
         display:block;
-        background-color:antiquewhite;
+        background-color:darkred;
+        color:white;
         padding-bottom: 1em;
         padding-top: 1em;
         padding-left: 1em;
     }
     .dropdown ul a{
-        background-color:bisque;
+        background-color:aliceblue;
+        color:black;
     }
 
     li.dropdown ul{
@@ -25,12 +28,18 @@
     li.dropdown:hover ul{
         display:block;
     }
+    .material-symbols-outlined{
+        float: right;
+    }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li class="dropdown"><a href="">Fruit</a>
+            <span class="material-symbols-outlined">
+                keyboard_arrow_down
+            </span>
+            <li class="dropdown"><a href="">Fruit</a> 
                 <ul>
                     <li><a href="#">Apple</a></li>
                     <li><a href="##">Strawbery</a></li>
@@ -38,6 +47,9 @@
                 </ul>
             </a></li>
             <li class="dropdown">
+                <span class="material-symbols-outlined">
+                    keyboard_arrow_down
+                </span>
                 <a href="">Vechtables</a>
                 <ul>
                     <li><a href="###">Broccoli</a></li>

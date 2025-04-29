@@ -1,0 +1,120 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#top-nav{
+    display: block;
+    border: solid 1px;
+    position:absolute;
+    top:50px;
+    right:0;
+    background-color: aliceblue;
+    display: none;
+}
+#top-nav li{
+    border-bottom: solid 1px;
+}
+nav ul{
+    padding:0px;
+    margin:0px;
+    list-style-type: none;
+    background-color:aliceblue;
+    
+}
+#top-nav input{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+}
+h1{
+    font-size: 1rem;
+}
+.dropdown{
+    background-color: blue;
+    color: white;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+    width: 85%;
+    margin-left:3em;
+}
+.dropdown a{
+    color: white;
+}
+.dropdown ul{
+    display:none;
+}
+.dropdown:hover ul{
+    display:block;
+}
+.dropdown:hover ul a{
+    color: black;
+}
+.news{
+    padding-top: 3em;
+    padding-left: 3em;
+}
+.Banner{
+    padding: 3em;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+}
+.Banner img{
+    max-width:100%;
+}
+.Banner a{
+    padding: .5em;
+    background-color: blue;
+    color:white
+}
+.Banner p{
+    padding:.25em;
+    background-color: rgba(0,0,225, .6);
+    color:white;
+    max-width:70%;
+}
+@media (min-width:768px){
+.material-symbols-outlined{
+    display: none;
+}
+#top-nav{
+    top:0px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+#top-nav ul{
+    display: flex;
+}
+#top-nav ul a{
+    display: block;
+    padding-left: 3em;
+    border-bottom: 0px;
+}
+.program-menu{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+}
+.dropdown{
+    width:32%;
+}
+.dropdown ul{
+    width: 32%;
+}
+.home main{
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) 300px;
+}
+.events{
+    margin-top: 100px;
+    margin-left: 25px;
+}
+}
