@@ -42,6 +42,8 @@ h1{
     margin-bottom: 1em;
     width: 85%;
     margin-left:3em;
+    border:solid 1px black;
+    border-radius: 10px;
 }
 .dropdown a{
     color: white;
@@ -80,6 +82,21 @@ h1{
     color:white;
     max-width:70%;
 }
+.no-underline{
+    text-decoration: none;
+}
+.programs-card{
+    border:solid 1px black;
+    border-radius: 10px;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+    margin-top:3em;
+    margin-bottom: 3em;
+    width: 490px;
+}
+.programs-card:hover{
+    box-shadow: 5px 5px 5px black;
+}
 @media (min-width:768px){
 .material-symbols-outlined{
     display: none;
@@ -104,10 +121,10 @@ h1{
     position:absolute;
 }
 .dropdown{
-    width:32%;
+    width:100%%;
 }
 .dropdown ul{
-    width: 32%;
+    width: 100%;
 }
 .home main{
     display: grid;
@@ -116,5 +133,14 @@ h1{
 .events{
     margin-top: 100px;
     margin-left: 25px;
+}
+.Class main{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, 490px);
+    grid-template-rows: 500px 500px 500px;
+    grid-gap: 1em;
+}
+.Class main h2{
+    margin-top: 5em;
 }
 }
