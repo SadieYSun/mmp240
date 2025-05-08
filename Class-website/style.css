@@ -1,0 +1,19 @@
+.dropdown{
+    background-color:lightblue;
+    padding: 1em;
+    border-radius: 15px;
+    width: 25%;
+    margin-bottom:3em;
+}
+.dropdown ul{
+    display:none;
+}
+.dropdown:hover ul{
+    display: inline;
+}
+body{
+    background-color:floralwhite;
+}
+.dropdown a{
+    color: white;
+}

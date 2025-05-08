@@ -121,7 +121,9 @@ h1{
     position:absolute;
 }
 .dropdown{
-    width:100%%;
+    width:200px;
+    padding-top:.5em;
+    justify-content-between: space-between;
 }
 .dropdown ul{
     width: 100%;
@@ -132,12 +134,11 @@ h1{
 }
 .events{
     margin-top: 100px;
-    margin-left: 25px;
+    margin-left: 100px;
 }
-.Class main{
+.Programs-Group{
     display: grid;
     grid-template-columns:repeat(auto-fit, 490px);
-    grid-template-rows: 500px 500px 500px;
     grid-gap: 1em;
 }
 .Class main h2{
