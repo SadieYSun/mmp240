@@ -2,18 +2,49 @@
     background-color:lightblue;
     padding: 1em;
     border-radius: 15px;
-    width: 25%;
+    width: 100px;
     margin-bottom:3em;
+    margin-left: 20px;
+}
+ul, li{
+    list-style: none;
+    padding: 0px;
+    margin-top: 1em;
 }
 .dropdown ul{
     display:none;
 }
 .dropdown:hover ul{
-    display: inline;
+    display: block;
+    position: absolute;
+    background-color:bisque;
+    width: 100px;
+    padding: 1em;
+    left: 510px;
+    border-radius: 15px;
 }
 body{
     background-color:floralwhite;
 }
 .dropdown a{
     color: white;
+}
+.main{
+    display:flex;
+    position: relative;
+    left: 20%;
+    right: auto;
+    margin-top: 5%;
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 700px;
+    height:364px;
+}
+.menu{
+    margin-top: 2%;
+}
+h1{
+    position: relative;
+    left: 20%;
+    margin-top: 100px;
 }
