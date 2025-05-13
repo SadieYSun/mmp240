@@ -13,8 +13,8 @@ header{
     position:absolute;
     top:50px;
     right:0;
-    background-color: aliceblue;
     display: none;
+    background-color: aliceblue;
 }
 #top-nav li{
     border-bottom: solid 1px;
@@ -23,7 +23,7 @@ nav ul{
     padding:0px;
     margin:0px;
     list-style-type: none;
-    background-color:aliceblue;
+    background-color:white;
     
 }
 #top-nav input{
@@ -42,14 +42,18 @@ h1{
     margin-bottom: 1em;
     width: 85%;
     margin-left:3em;
-    border:solid 1px black;
     border-radius: 10px;
+    margin-top: 1rem;
 }
 .dropdown a{
     color: white;
+    text-decoration: none;
+    padding-top: 10px;
 }
 .dropdown ul{
     display:none;
+    width: 100%;
+    position:absolute;
 }
 .dropdown:hover ul{
     display:block;
@@ -82,9 +86,6 @@ h1{
     color:white;
     max-width:70%;
 }
-.no-underline{
-    text-decoration: none;
-}
 .programs-card{
     border:solid 1px black;
     border-radius: 10px;
@@ -93,6 +94,13 @@ h1{
     margin-top:3em;
     margin-bottom: 3em;
     width: 490px;
+}
+.Programs-Group a{
+    text-decoration: none;
+    color: black;
+}
+.programs-card img{
+    border-radius: 9px 9px 0 0;
 }
 .programs-card:hover{
     box-shadow: 5px 5px 5px black;
