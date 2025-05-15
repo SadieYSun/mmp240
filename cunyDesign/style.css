@@ -48,7 +48,9 @@ h1{
 .dropdown a{
     color: white;
     text-decoration: none;
-    padding-top: 10px;
+}
+.dropdown:hover li{
+    margin:10px;
 }
 .dropdown ul{
     display:none;
