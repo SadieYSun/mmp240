@@ -95,7 +95,7 @@ h1{
     transition-duration: 0.5s;
     margin-top:3em;
     margin-bottom: 3em;
-    width: 490px;
+    width: 364px;
 }
 .Programs-Group a{
     text-decoration: none;
@@ -103,6 +103,8 @@ h1{
 }
 .programs-card img{
     border-radius: 9px 9px 0 0;
+    width: 364px;
+    height: 272px;
 }
 .programs-card:hover{
     box-shadow: 5px 5px 5px black;
@@ -148,7 +150,7 @@ h1{
 }
 .Programs-Group{
     display: grid;
-    grid-template-columns:repeat(auto-fit, 490px);
+    grid-template-columns:repeat(auto-fit, 366px);
     grid-gap: 1em;
 }
 .Class main h2{
