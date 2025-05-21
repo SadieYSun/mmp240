@@ -7,7 +7,7 @@ header{
     justify-content: space-between;
     position: relative;
 }
-h1 a{
+h1, a{
     color: black;
 }
 #top-nav{
