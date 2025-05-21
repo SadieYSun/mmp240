@@ -83,13 +83,14 @@ h1{
 .Banner a{
     padding: .5em;
     background-color: blue;
-    color:white
+    color:white;
 }
 .Banner p{
     padding:.25em;
     background-color: rgba(0,0,225, .6);
     color:white;
     max-width:70%;
+    margin-left: 0%;
 }
 .programs-card{
     border:solid 1px black;
@@ -112,9 +113,9 @@ h1{
     width: 364px;
     height: 272px;
 }
-.programs-card, h3, p{
-        margin-left:5%;
-        margin-right:5%;
+.programs-card, p, h3{
+    margin-left:5%;
+    margin-right:5%;
 }
 .programs-card:hover{
     box-shadow: 5px 5px 5px black;
