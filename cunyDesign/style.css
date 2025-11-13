@@ -27,7 +27,7 @@ nav ul{
     margin:0px;
     list-style-type: none;
     background-color:white;
-    
+    position: absolute;
 }
 #top-nav input{
     margin-left: 5px;
