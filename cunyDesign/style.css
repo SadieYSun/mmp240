@@ -28,6 +28,7 @@ h1, a{
     list-style-type: none;
     background-color:aliceblue;
     position: absolute;
+    width: 100%;
 }
 #top-nav input{
     margin-left: 5px;
