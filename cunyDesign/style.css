@@ -22,14 +22,11 @@ h1, a{
 #top-nav li{
     border-bottom: solid 1px;
 }
-.programs-nav{
-    position: relative;
-}
 nav ul{
     padding:0px;
     margin:0px;
     list-style-type: none;
-    background-color:white;
+    background-color:aliceblue;
 }
 #top-nav input{
     margin-left: 5px;
