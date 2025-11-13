@@ -65,6 +65,7 @@ h1{
 }
 .dropdown:hover ul a{
     color: black;
+    right:20px;
 }
 .news{
     padding-top: 3em;
